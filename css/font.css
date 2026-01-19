@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "TT Alientz Educational Variable";
+  src: url(/fonts/TT\ Alientz\ Educational\ Variable.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Alientz Educational Serif";
+  src: url(/fonts/TT\ Alientz\ Educational\ Serif.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Alientz Educational Grotesque";
+  src: url(/fonts/TT\ Alientz\ Educational\ Grotesque.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}

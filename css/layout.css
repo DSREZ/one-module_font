@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #010101;
+}
+
+
+body {
+    background-color: #010101;
+}
+nav {
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+section{
+    height: 782px;
+}
+
+.menu_div{
+    margin-bottom: 36px; 
+}
+
+.one_block{
+  position: relative;
+  height: 782px;
+  overflow: hidden;
+}
+
+
+.star_div{
+  position: absolute;        
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1400px, 120vw); 
+  z-index: 1;
+}
+
+.star_div img{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  z-index: 1;
+}
+
+.two_block{
+    width: 100%;
+    height: auto;
+}
+
+.three_block{
+    margin-bottom: 97px;
+}
+
+.two_block img {
+  width: 100%;
+  height: auto;
+  display: block;   
+}
+
+h1, .description_h1{
+  position: relative;
+  z-index: 3;
+}
+
+h1 {
+    font-family: "TT Alientz Educational Serif";
+    font-size: 228px;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.description_h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400; 
+    font-size: 27px;
+    color: #D9D9D9;
+    text-align: center;
+    margin-bottom: 60.75px;
+}
+
+.description_h2{
+    font-family: "Inter", sans-serif;
+    font-weight: 400; 
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+    
+}
+.five_block{
+    margin-bottom: 95px;
+}
+.five_block img {
+  width: 100%;
+  height: auto;
+  display: block;   
+}
+
+.text-4box {
+    font-family: "TT Alientz Educational Serif";
+    font-size: 92px;
+    color: #DC2508;
+    text-align: left;
+    margin-left: 35px;
+}
+
+.text-4box img{
+margin-top: 733px;
+}
+
+.three_block{
+    background-image: url(/image/sharp_pattern_background.svg)
+}
+
+.six_block{
+    text-align: center;
+}
+
+.seven_block img{
+    width: 100%;
+  height: auto;
+  display: block;   
+}
+
+.text_seven{
+    font-size: 22.52px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.ruler_box {
+      width: 100%;
+      display: block;
+      text-align: center;
+}
+
+.eight_block{
+    background-color: #FF0000;
+}
