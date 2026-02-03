@@ -39,45 +39,65 @@ section {
 
 .star_div svg {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  left: -25%;
+  transform: translateX(-10%);
+  transform: translateY(5%);
+  top: 60%;
   height: auto;
   z-index: 1;
 }
 
 .two_block {
-  background-image: url(../image/backgound_two_section.svg)
+  background: url("../image/backgound_two_section.svg") center / cover no-repeat;
+  position: relative;
 }
 
 .text_two {
-    display: flex;
-width: 343.685px;
-height: 203.9px;
-padding: 10px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border: 1px solid #000;
-background: #FFF;
+  display: flex;
+  width: 343.685px;
+  height: 203.9px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #000;
+  background: #fff;
 
-width: 317.614px;
-flex-shrink: 0;
-color: #000;
-text-align: center;
-font-family: Inter;
-font-size: 23px;
-font-style: normal;
-font-weight: 400;
-line-height: 100% /* 23px */;
-z-index: 1;
+  width: 317.614px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  position: absolute;
+  top: 39px;
+  right: 29px;
 
-position: relative;
-left: 907px;
-top: 39px;
+  z-index: 2;
+
+  color: rgb(0, 0, 0);
+}
+
+.text_three_two_block {
+  width: 367.827px;
+  height: 119.065px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  position: absolute;
+  left: 30px;
+  top: 39px;
 }
 
 .three_block {
-  margin-bottom: 97px;
+  margin-bottom: 70px;
 }
 
 .two_block img {
@@ -86,7 +106,7 @@ top: 39px;
   display: block;
 }
 
-h1,
+
 .description_h1 {
   position: relative;
   z-index: 3;
@@ -110,17 +130,93 @@ h1 {
 
 .description_h2 {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  max-width: 400px;
   font-size: 18px;
   color: #000000;
   text-align: center;
+  z-index: 2;
+  position: absolute;
+  top: 281px;
+  left: 500px;
 }
 
+.description_h2_two {
+  color: #000;
+  text-align: center;
+  font-family: "TT Alientz Educational Serif";
+  font-size: 93px;
+  font-style: normal;
+  position: absolute;
+
+  top: 330px;
+  left: 189px;
+  z-index: 2;
+}
 
 .three_block {
   background-image: url(/image/sharp_pattern_background.svg);
   margin-bottom: 113px;
+  text-align: center;
+  position: relative;
 }
+
+
+.three_block svg {
+  z-index: 1;
+  position: absolute;
+top: 5%;
+left: 29%;
+}
+
+h3 {
+  font-family: "TT Alientz Educational Serif";
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  position: relative;
+  left: -500px;
+  top: 26px;
+  z-index: 2;
+}
+
+.three_block_one_text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  max-width: 168px;
+  z-index: 2;
+  position: absolute;
+  left: 661px;
+  top: 364px;
+}
+
+.three_block_two_text {
+  position: absolute;
+  top: 229px;
+  left: 290px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  max-width: 270px;
+  line-height: 100%;
+}
+
+.three_block_three_text {
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+max-width: 173px;
+position: absolute;
+top: 600px;
+left: 350px;
+}
+
 
 .text-4box {
   font-family: "TT Alientz Educational Serif";
@@ -132,7 +228,6 @@ h1 {
 
 .four_block {
   position: relative;
-
 }
 
 .four_block svg {
@@ -142,16 +237,16 @@ h1 {
 }
 
 .text_four_block {
-    width: 511.499px;
-color: #FFF;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 100% /* 14px */;
-position: relative;
-left: 819px;
-top: 49px;
+  width: 511.499px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100% /* 14px */;
+  position: relative;
+  left: 819px;
+  top: 49px;
 }
 
 .five_block {
@@ -164,15 +259,14 @@ top: 49px;
   display: block;
 }
 
-
 .six_block {
   text-align: center;
 }
 
 .six_block img {
-    margin-right: 100px;
-    margin-left: 100px;
-    text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
 }
 
 .seven_block img {
@@ -182,12 +276,12 @@ top: 49px;
 }
 
 .text_seven {
-color: #FFF;
-text-align: center;
-font-size: 22.519px;
-font-style: normal;
-font-weight: 756px;
-font-family: "TT Alientz Educational Grotesque";
+  color: #fff;
+  text-align: center;
+  font-size: 22.519px;
+  font-style: normal;
+  font-weight: 756px;
+  font-family: "TT Alientz Educational Grotesque";
 }
 
 .ruler_box {
@@ -198,4 +292,34 @@ font-family: "TT Alientz Educational Grotesque";
 
 .eight_block {
   background-color: #ff0000;
+    overflow: hidden;
+}
+
+.pitchforks_eight_block{
+    position: relative;
+}
+
+.pitchfork_one svg{
+
+fill: #FFF;
+position: absolute;
+top: 30px;
+left: 797px;
+}
+
+.pitchfork_two svg{
+
+transform: rotate(30deg);
+fill: #FFF;
+position: absolute;
+top: 291px;
+left: 817px;
+}
+
+.prickly_man svg{
+    width: 782.182px;
+height: 1079.29px;
+transform: rotate(30deg);
+fill: #FFF;
+
 }
