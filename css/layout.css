@@ -251,6 +251,31 @@ left: 350px;
 
 .five_block {
   margin-bottom: 195px;
+position: relative;
+}
+
+.text_one_five_block {
+    color: #FFF;
+font-family: "TT Alientz Educational Variable";
+font-size: 33.607px;
+font-style: normal;
+max-width: 285px;
+line-height: normal;
+position: absolute;
+top: 29px;
+left: 40px;
+}
+
+.text_two_five_block {
+        color: #000000;
+font-family: "TT Alientz Educational Variable";
+font-size: 33.607px;
+font-style: normal;
+max-width: 285px;
+text-align: right;
+position: absolute;
+bottom: 29px;
+right: 40px;
 }
 
 .five_block svg {
@@ -269,6 +294,10 @@ left: 350px;
   text-align: center;
 }
 
+.seven_block {
+    position: relative;
+}
+
 .seven_block img {
   width: 100%;
   height: auto;
@@ -280,14 +309,32 @@ left: 350px;
   text-align: center;
   font-size: 22.519px;
   font-style: normal;
-  font-weight: 756px;
+max-width: 514px;
+max-height: 240px;
   font-family: "TT Alientz Educational Grotesque";
+    position: absolute;
+    top: 271px;
+    left: 33%;
+}
+
+.miranda_png {
+    width: 274px;
+height: 176px;
+aspect-ratio: 137/88;
+border: 3px solid #000;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  position: absolute;
+  top: 551px;
+  left: 580px;
 }
 
 .ruler_box {
   width: 100%;
-  display: block;
+  height: 100%;
+  display: inline-block;
+ left: 0;
   text-align: center;
+  position: absolute;
 }
 
 .eight_block {
