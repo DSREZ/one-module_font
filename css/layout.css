@@ -154,7 +154,7 @@ h1 {
 }
 
 .three_block {
-  background-image: url(../image/sharp_pattern_background.svg);
+  background-image: url("../image/sharp_pattern_background.svg");
   margin-bottom: 113px;
   text-align: center;
   position: relative;
